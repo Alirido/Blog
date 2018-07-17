@@ -1,0 +1,39 @@
+id:
+  activerecord:
+    attributes:
+      article:
+        title: "Judul"
+    errors:
+      models:
+        article:
+          attributes:
+            title:
+              blank: "tidak boleh kosong"
+              too_short: "terlalu pendek (minimal 5 karakter)"
+  articles:
+    myblog: "Blog saya"
+    list: "Daftar artikel"
+    create: "Buat artikel"
+    title: "Judul"
+    text: "Isi"
+    author: "Penulis"
+    show: "Tampilkan"
+    edit: "Sunting"
+    delete: "Hapus"
+    actions: "Aksi"
+    new: "Artikel baru"
+    back: "Kembali"
+    EditArticle: "Sunting artikel"
+    DeleteConfirm: "Apakah anda yakin?"
+    failed: "Judul terlalu pende (minimal 5 karakter)"
+    error: "melarang artikel ini untuk disimpan"
+
+  comments:
+    comment: "Komentar"
+    Add: "Tambahkan komentar"
+    commenter: "Nama pengguna"
+    body: "Isi"
+    send: "Kirim komentar"
+    delete: "Hapus komentar"
+    DeleteConfirm: "Apakah anda yakin?"
+

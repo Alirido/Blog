@@ -1,0 +1,13 @@
+<%= form_for([@article, @article.comments.build]) do |f| %>
+  <p>
+    <%= f.label :commenter, I18n.t('comments.commenter') %><br>
+    <%= f.text_field :commenter %>
+  </p>
+  <p>
+    <%= f.label :body, I18n.t('comments.body') %><br>
+    <%= f.text_area :body %>
+  </p>
+  <p>
+    <%= f.submit I18n.t('comments.send') %>
+  </p>
+<% end %>

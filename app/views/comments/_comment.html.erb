@@ -1,0 +1,13 @@
+<p>
+  <strong><%= I18n.t('comments.commenter') %>:</strong>
+  <%= comment.commenter %>
+</p>
+ 
+<p>
+  <strong><%= I18n.t('comments.comment') %>:</strong>
+  <%= comment.body %>
+</p>
+
+<p>
+	<%=link_to I18n.t('comments.delete'), [comment.article, comment], method: :delete, data: {confirm: I18n.t('comments.DeleteConfirm')} %>
+</p>
